@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('NEW JS VERSION');
+
 if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
