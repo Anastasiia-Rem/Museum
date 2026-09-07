@@ -42,18 +42,22 @@ To run the project locally:
 
    ```bash
    git clone YOUR_REPOSITORY_URL
-   
+   ```
+
 2. Go to the project directory:
 
-```bash
-cd Museum
+   ```bash
+   cd Museum
+   ```
 
 3. Install the dependencies:
 
-```bash
-npm install
+   ```bash
+   npm install
+   ```
 
 4. Start the development server:
 
-```bash
-npm start
+   ```bash
+   npm start
+   ```
