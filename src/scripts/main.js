@@ -1,5 +1,25 @@
 'use strict';
 
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+window.addEventListener('load', () => {
+  if (window.location.hash) {
+    history.replaceState(
+      null,
+      '',
+      window.location.pathname + window.location.search,
+    );
+  }
+
+  window.scrollTo(0, 0);
+});
+
+window.addEventListener('pageshow', () => {
+  window.scrollTo(0, 0);
+});
+
 const slider = document.querySelector('.gallery__slider');
 const slides = document.querySelectorAll('.gallery__slide');
 const dots = document.querySelectorAll('.gallery__dot');
