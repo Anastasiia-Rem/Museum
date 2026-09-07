@@ -41,7 +41,7 @@ To run the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone (https://github.com/Anastasiia-Rem/Museum.git)
+   git clone https://github.com/Anastasiia-Rem/Museum.git
    ```
 
 2. Go to the project directory:
